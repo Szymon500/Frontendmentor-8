@@ -11,11 +11,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="stylesheet" href="./dist/css/crew.min.css">
     <script src="./dist/js/script.min.js" defer></script>
+    <script src="./dist/js/crew.min.js" defer></script>
 </head>
 
-<body data-name="home">
+<body data-name="crew">
     <div class="wrapper">
     <nav class="nav">
         <img class="nav__logo" src="./dist/img/shared/logo.svg" alt="Logo space tourism company">
@@ -36,21 +37,36 @@
 
     </nav>
 </div>
-    <header>
+    <div class="shadow"></div>
+    <main>
         <div class="wrapper">
-            <div class="header">
-                <h2 class="header__subheading">so, you want to travel to</h2>
-                <h1 class="header__heading">space</h1>
-                <p class="header__text">Let’s face it; if you want to go to space, you might as well genuinely go to
-                    outer space and not hover kind of on the edge of it. Well sit back, and relax
-                    because we’ll give you a truly out of this world experience!</p>
-            </div>
-            <a href="#">
-                <button class="explore-btn">explore</button>
-            </a>
+            <h2 class="header"><span class="header__span">02</span> meet your crew
+            </h2>
+            <section class="profile">
+                <img src="./dist/img/crew/image-douglas-hurley.webp" alt="douglas hurley picture" class="profile__img">
+            </section>
+            <section class="info">
+                <div class="info__buttons">
+                    <button class="info__buttons-btn active-btn" data-member="douglas"></button>
+                    <button class="info__buttons-btn" data-member="mark"></button>
+                    <button class="info__buttons-btn" data-member="victor"></button>
+                    <button class="info__buttons-btn" data-member="anousheh"></button>
+                </div>
+                <div class="info__header">
+                    <p class="info__header-role">commander</p>
+                    <h3 class="info__header-name">douglas hurley</h3>
+                </div>
+                <div class="info__text">
+                    <p class="info__text-item">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot
+                        and former NASA astronaut. He launched into space for the third time as
+                        commander of Crew Dragon Demo-2.</p>
+                </div>
+            </section>
         </div>
-    </header>
+
+    </main>
+
+
 </body>
 
 </html>
-
