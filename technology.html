@@ -11,11 +11,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="stylesheet" href="./dist/css/technology.min.css">
     <script src="./dist/js/script.min.js" defer></script>
+    <script src="./dist/js/technology.min.js" defer></script>
 </head>
 
-<body data-name="home">
+<body data-name="technology">
     <div class="wrapper">
     <nav class="nav">
         <img class="nav__logo" src="./dist/img/shared/logo.svg" alt="Logo space tourism company">
@@ -36,21 +37,32 @@
 
     </nav>
 </div>
-    <header>
+    <main>
         <div class="wrapper">
-            <div class="header">
-                <h2 class="header__subheading">so, you want to travel to</h2>
-                <h1 class="header__heading">space</h1>
-                <p class="header__text">Let’s face it; if you want to go to space, you might as well genuinely go to
-                    outer space and not hover kind of on the edge of it. Well sit back, and relax
-                    because we’ll give you a truly out of this world experience!</p>
-            </div>
-            <a href="#">
-                <button class="explore-btn">explore</button>
-            </a>
+            <h2 class="header"><span class="header__span">03</span> space launch 101
+            </h2>
+            <section class="image">
+                <img src="./dist/img/technology/image-launch-vehicle-portrait.jpg" alt="douglas hurley picture"
+                    class="image__img">
+            </section>
+            <section class="info">
+                <div class="info__buttons">
+                    <button class="info__buttons-btn active" data-technology="launch">1</button>
+                    <button class="info__buttons-btn" data-technology="spaceport">2</button>
+                    <button class="info__buttons-btn" data-technology="capsule">3</button>
+                </div>
+                <div class="info__overview">
+                    <p class="info__overview-p">the terminology...</p>
+                    <h3 class="info__overview-name">launch vehicle</h3>
+                    <p class="info__overview-text">A launch vehicle or carrier rocket is a rocket-propelled vehicle used
+                        to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X
+                        carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an
+                        awe-inspiring sight on the launch pad!</p>
+                </div>
+            </section>
         </div>
-    </header>
+    </main>
+
 </body>
 
 </html>
-
